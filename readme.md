@@ -19,6 +19,8 @@
 
 ## Dockerized Commands
 
+Before running the docker commands, make sure you have a `.dockerignore` file with content `target` to ignore the artifact folder.
+
 You can still run the Spring Boot Application with docker without any JDK/JRE installed. You should understand what Option A is doing before going for Option B.
 
 ```sh
