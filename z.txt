@@ -1,0 +1,8 @@
+docker compose up 
+- build image if run the first time
+- use existing latest image if it is down
+
+docker compose up --build 
+- rebuild image
+- need to use --build when there is content change
+- but you don't have to use --build if u bind source code
